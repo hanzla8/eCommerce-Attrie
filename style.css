@@ -1,0 +1,190 @@
+  @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;700&family=Poppins:wght@300;400&display=swap');
+
+:root{
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+    --pink: #e5345b;
+}
+
+body{
+    font-family: var(--sm-font);
+}
+
+/* BTN WORK */
+.bg-primary{
+    background-color: var(--pink)!important;
+}
+.btn:not(.nav-btns button){
+    background-color: #fff;
+    color: rgb(85, 85, 85);
+    padding: 10px 28px;
+    border-radius: 50px;
+    border: 1px solid rgb(85, 85, 85);
+}
+.btn:not(.nav-btn button):hover{
+    background-color: var(--pink);
+    color: #fff;
+    border-color: var(--pink);
+}
+
+.active-filter-btn{
+    background-color: var(--pink)!important;
+    color: whitesmoke!important;
+    border-color: var(--pink)!important;
+}
+
+.filter-button-group .btn:hover{
+    color: #fff!important;
+}
+/* BTN WORK END */
+
+/* Text Color */
+.text-primary{
+    color: var(--pink)!important;
+}
+
+.navbar{
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand span{
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+.nav-link::after{
+    color: rgb(228, 87, 110);
+    background-color: pink;
+}
+.nav-item{
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+
+
+/* header 1 */
+#header{
+    background: url(./images/header2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.carousel-inner h1{
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+.carousel-item .btn{
+    border-color: #fff;
+}
+.carousel-item .btn:hover{
+    border-color: var(--pink)!important;
+}
+
+
+/* COLLECTION */
+.title h2::before{
+    position: absolute;
+    width: 4px;
+    height: 58px;
+    background-color: var(--pink);
+    left: -20px;
+    top: 50px;
+    transform: translate(-50%);
+}
+
+
+.collection-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+}
+
+    /* special Start */
+
+.special-img{
+    width: auto;
+    height: 240px;
+}
+
+.special-img span{
+    top: 20px;
+    right: 20px;
+}
+
+.special-list .btn{
+    padding: 8px 20px!important;
+}
+.special-img img{
+    transition: all 0.3s ease;
+}
+.special-img :hover{
+    transform: scale(1.2);
+}
+
+    /* special End */
+
+    /* offers start */
+#offer{
+    background: url(./images/shop.jpg) center/cover no-repeat;
+}
+#offer .row{
+    min-height: 60vh;
+}
+#offer-content span{
+    font-size: 20px;
+}
+#offer-content h2{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#card1{
+    transition: all 0.3s ease;
+}
+#card1 :hover{
+    transform: scale(0.7);
+}
+
+#cig{
+    transition: all 0.5s ease;
+}
+#cig :hover{
+    transform: scale(0.9);
+}
+
+#cig1{
+    transition: all 0.5s ease;
+}
+#cig1 :hover{
+    transform: scale(0.7);
+}
+
+#newsletter{
+    background-color: rgb(80, 77, 77);
+}
+#newsletter button{
+    background-color: blue;
+    color: white;
+}
+#newsletter button :hover{
+    background-color: #e5345b!important;
+}
+
+/* footer start */
+footer .brand{
+    font-family: var(--lg-font);
+    letter-spacing: 2px;
+}
+
+footer a{
+    transition: color 0.3 ease;
+}
+footer a :hover{
+    color: var(--pink);
+}
+
+/* media querry */
+@media(min-width:992px){
+    .nav-item{
+        border-bottom: none;
+    }
+}

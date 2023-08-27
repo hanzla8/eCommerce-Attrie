@@ -1,0 +1,755 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Attries Home</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Style Link -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- fav Icon Img -->
+  <link rel="shortcut icon" href="./images/shop.jpg" type="image/x-icon">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- aos CDn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex justify-content-between align-item-center order-lg-0" href="index.html">
+                <img class="rounded-circle" src="./images/bag1.jpg" width="80px" height="80px" alt="site-icon">
+                <span style="line-height: 80px;">Attires</span>
+            </a>
+
+            <div class="order-lg-2 nav-btns">
+                <button type="button" class="btn position-relative">
+                <i class="fa fa-shopping-cart"></i>
+                <span class="position-absolute top-0 start-100 translate-middle badge" style="background-color: palevioletred;">5</span>
+            </button>
+
+            <button type="button" class="btn position-relative">
+                <i class="fa fa-heart"></i>
+                <span class="position-absolute top-0 start-100 translate-middle badge" style="background-color: palevioletred;">7</span>
+            </button>
+
+            <button type="button" class="btn position-relative">
+                <i class="fa fa-search"></i>
+            </button>
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navmanu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navmanu" class="collapse navbar-collapse order-lg-1">
+                <ul class="navbar-nav mx-auto text-center">
+
+                    <li class="nav-item px-2 py-2 text-uppercase text-dark active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item px-2 py-2 text-uppercase text-dark">
+                        <a class="nav-link" href="#collection">Collection</a>
+                    </li>
+                    <li class="nav-item px-2 py-2 text-uppercase text-dark">
+                        <a class="nav-link" href="#special">special</a>
+                    </li>
+                    <li class="nav-item px-2 py-2 text-uppercase text-dark">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item px-2 py-2 text-uppercase text-dark">
+                        <a class="nav-link" href="#about">about us</a>
+                    </li>
+                    <li class="nav-item px-2 py-2 text-uppercase text-dark border-0">
+                        <a class="nav-link" href="#populer">Populer</a>
+                    </li>                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+  <!-- end of navbar -->
+  <main>
+    <div id="header" class="vh-100 carousel-slide" data-bs-ride="carousel" style="padding-top: 280px;">
+        <div class="container h-100 d-flex align-item-center justify-content-between">
+            <div class="text-center carousel-item active">
+                <h2 class="text-capitalize text-white">Best Collection</h2>
+                <h1 class="text-uppercase py-2 fw-bold-text">New Arrival</h1>
+
+                <a href="#" class="btn mt-3">SHOP NOW</a>
+            </div>
+
+            <div class="text-center carousel-item">
+                <h2 class="text-capitalize text-white">Best Price & offer</h2>
+                <h1 class="text-uppercase py-2 fw-bold-text">New Season</h1>
+
+                <a href="#" class="btn mt-3">BUY NOW</a>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+    <!-- End Of Header -->
+
+    <!-- Collection OF start -->
+    <section id="collection" class="py-5">
+        <div class="container">
+            <div class="title text-center">
+                <h2 class="position-relative d-inline-block">NEW COLLECTION</h2>
+            </div>
+
+            <div class="row g-0">
+                <div class="d-flex flex-wrap justify-content-between filter-button-group">
+                    <button type="button" class="btn m-2 text-dark active-filter-btn" data-filter="*">ALL</button>
+                    <button type="button" class="btn m-2 text-dark" data-filter=".best">BEST SELLER</button>
+                    <button type="button" class="btn m-2 text-dark" data-filter=".feat">FEATURED</button>
+                    <button type="button" class="btn m-2 text-dark" data-filter=".new">NEW ARRIVAL</button>
+                </div>
+            </div>
+
+            <!-- collection list -->
+            <div class="collection-list mt-4 row gx-0 gy-3" data-aos="zoom-in">
+                <div class="col-md-6 col-lg-4 col-xl-3 p-3 best">
+                    <div class="collection-img">
+                        <img src="./images/dresses1.jpg" class="w-100" alt="">
+                        <span class="position-absolute bg-primary text-white d-flex align-item-center justify-content-center">Sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Blue Skarts</p>
+                        <span class="fw-bold">$45.75</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-3 feat-item">
+                    <div class="collection-img">
+                        <img src="./images/dresses5.jpg" class="w-100" alt="">
+                        <span class="position-absolute bg-primary text-white d-flex align-item-center justify-content-center">Sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Blue Skarts</p>
+                        <span class="fw-bold">$45.75</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-3 new-item">
+                    <div class="collection-img">
+                        <img src="./images/dresses2.jpg" class="w-100" alt="">
+                        <span class="position-absolute bg-primary text-white d-flex align-item-center justify-content-center">Sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Blue Skarts</p>
+                        <span class="fw-bold">$45.75</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-3 feat-item">
+                    <div class="collection-img">
+                        <img src="./images/dresses3.jpg" class="w-100" alt="">
+                        <span class="position-absolute bg-primary text-white d-flex align-item-center justify-content-center">Sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Blue Skarts</p>
+                        <span class="fw-bold">$45.75</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-3 new-item">
+                    <div class="collection-img">
+                        <img src="./images/dresses4.jpg" class="w-100" alt="">
+                        <span class="position-absolute bg-primary text-white d-flex align-item-center justify-content-center">Sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Blue Skarts</p>
+                        <span class="fw-bold">$45.75</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-3 feat-item">
+                    <div class="collection-img">
+                        <img src="./images/hat1.jpg" class="w-100" alt="">
+                        <span class="position-absolute bg-primary text-white d-flex align-item-center justify-content-center">Sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Blue Skarts</p>
+                        <span class="fw-bold">$45.75</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-3 best-item">
+                    <div class="collection-img">
+                        <img src="./images/hat2.jpg" class="w-100" alt="">
+                        <span class="position-absolute bg-primary text-white d-flex align-item-center justify-content-center">Sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Blue Skarts</p>
+                        <span class="fw-bold">$45.75</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-3 new-item">
+                    <div class="collection-img">
+                        <img src="./images/hat3.jpg" class="w-100" alt="">
+                        <span class="position-absolute bg-primary text-white d-flex align-item-center justify-content-center">Sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Blue Skarts</p>
+                        <span class="fw-bold">$45.75</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-3 feat-item">
+                    <div class="collection-img">
+                        <img src="./images/hat4.jpg" class="w-100" alt="">
+                        <span class="position-absolute bg-primary text-white d-flex align-item-center justify-content-center">Sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Blue Skarts</p>
+                        <span class="fw-bold">$45.75</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-3 best-item">
+                    <div class="collection-img">
+                        <img src="./images/bag1.jpg" class="w-100" alt="">
+                        <span class="position-absolute bg-primary text-white d-flex align-item-center justify-content-center">Sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Blue Skarts</p>
+                        <span class="fw-bold">$45.75</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-3 new-item">
+                    <div class="collection-img">
+                        <img src="./images/bag2.jpg" class="w-100" alt="">
+                        <span class="position-absolute bg-primary text-white d-flex align-item-center justify-content-center">Sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Blue Skarts</p>
+                        <span class="fw-bold">$45.75</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-3 best-item">
+                    <div class="collection-img">
+                        <img src="./images/shirt1.jpg" class="w-100" alt="">
+                        <span class="position-absolute bg-primary text-white d-flex align-item-center justify-content-center">Sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Blue Skarts</p>
+                        <span class="fw-bold">$45.75</span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-3 feat-item">
+                    <div class="collection-img">
+                        <img src="./images/shirt3.jpg" class="w-100" alt="">
+                        <span class="position-absolute bg-primary text-white d-flex align-item-center justify-content-center">Sale</span>
+                    </div>
+                    <div class="text-center">
+                        <div class="rating mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                        </div>
+                        <p class="text-capitalize my-1">Blue Skarts</p>
+                        <span class="fw-bold">$45.75</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- collection of end -->
+
+    <!-- special Product start -->
+    <section id="special" class="py-5">
+        <div class="container">
+            <div class="title text-center py-5">
+                <h2 class="position-relative d-inline-block">Products</h2>
+            </div>`
+
+            <div class="special-list row g-0">
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="./images/bag3.jpg" class="w-100" alt="">
+                        <span class="position-absolute d-flex align-item-center justify-content-center text-primary fs-4"><i class="fas fa-heart"></i></span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Latest Product</p>
+                        <span class="fw-bold d-block">$ 1.5</span>
+                        <a href="#" class="btn btn-primary mt-3">Add To Cart</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="./images/hat1.jpg" class="w-100" alt="">
+                        <span class="position-absolute d-flex align-item-center justify-content-center text-primary fs-4"><i class="fas fa-heart"></i></span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">The Best Hat</p>
+                        <span class="fw-bold d-block">$ 1.5</span>
+                        <a href="#" class="btn btn-primary mt-3">Add To Cart</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="./images/dresses4.jpg" class="w-100" alt="">
+                        <span class="position-absolute d-flex align-item-center justify-content-center text-primary fs-4"><i class="fas fa-heart"></i></span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Latest Design</p>
+                        <span class="fw-bold d-block">$ 1.5</span>
+                        <a href="#" class="btn btn-primary mt-3">Add To Cart</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class="special-img position-relative overflow-hidden">
+                        <img src="./images/shirt2.jpg" class="w-100" alt="">
+                        <span class="position-absolute d-flex align-item-center justify-content-center text-primary fs-4"><i class="fas fa-heart"></i></span>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-capitalize mt-3 mb-1">Shirt Design</p>
+                        <span class="fw-bold d-block">$ 1.5</span>
+                        <a href="#" class="btn btn-primary mt-3">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- special product End -->
+
+    <!--BLOG Start  -->
+        <section id="offer" class="py-5">
+            <div class="container">
+                <div class="row d-flex align-item-center text-center justify-content-lg-start" style="padding-top: 150px;">
+                    <center><div id="card1" class="card w-25 bg-dark">
+                        <div class="offer-content">
+                            <span class="text-white">Discount up to 40%</span>
+                            <h2 class="mt-2 mb-4 text-white">Grand Sell Offer</h2>
+                            <a href="#" class="btn">Buy Now</a>
+                        </div>
+                    </div></center>
+                </div>
+            </div>
+
+        </section>
+    <!-- BLOG end -->
+
+    <!-- blogs -->
+    <section id="blog" class="py-5">
+        <div class="container">
+            <div class="title text-center py-5">
+                <h2 class="position-relative d-inline-block">OUR LATEST BLOG</h2>
+            </div>
+
+            <div class="row g-3">
+                <div class="card col-md-6 col-lg-4">
+                    <img src="./images/bag4.jpg" width="100%" height="280px" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Over Thinking</h4>
+                        <p class="card-title mt-3 text-muted">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas doloribus praesentium, reprehenderit dignissimos libero nisi. Tempora minus rem, cum consectetur velit reprehenderit voluptatibus fugit? Error ducimus fugiat architecto iure exercitationem saepe, suscipit impedit recusandae,
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <span class="">Authore:</span><span>John Doe</span>
+                            </small>
+                            <a href="#" class="btn">Read More</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card col-md-6 col-lg-4">
+                    <img src="./images/shirt3.jpg" height="280px" width="100%" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Our Company</h4>
+                        <p class="card-title mt-3 text-muted">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas doloribus praesentium, reprehenderit dignissimos libero nisi. Tempora minus rem, cum consectetur velit reprehenderit voluptatibus fugit? Error ducimus fugiat architecto iure exercitationem saepe, suscipit impedit recusandae,
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <span class="">Authore:</span><span>John Doe</span>
+                            </small>
+                            <a href="#" class="btn">Read More</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card col-md-6 col-lg-4">
+                    <img src="./images/hat4.jpg" width="100%" height="280px" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Our latest Project</h4>
+                        <p class="card-title mt-3 text-muted">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam quas doloribus praesentium, reprehenderit dignissimos libero nisi. Tempora minus rem, cum consectetur velit reprehenderit voluptatibus fugit? Error ducimus fugiat architecto iure exercitationem saepe, suscipit impedit recusandae,
+                        </p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <span class="">Authore:</span><span>John Doe</span>
+                            </small>
+                            <a href="#" class="btn">Read More</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about us -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row gy-lg-1 align-item-center">
+                <div id="cig" class="col-lg-6 col-md-6 order-lg-1 order-md-0 pt-5">
+                    <div class="title">
+                        <h2 class="position-relative d-inline-block">About Us</h2>
+                    </div>
+                    <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde architecto deleniti earum nesciunt ipsum beatae voluptas quas,</p>
+                    <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut aspernatur, maiores omnis beatae autem doloremque dolorem itaque quia, doloribus, harum nobis vitae. Autem esse tempora, minima saepe modi doloremque facere laborum assumenda accusamus voluptatem expedita ratione ur possimus ipsa.</p>
+                </div>
+                <div id="cig1" class="col-lg-6 col-md-6 order-lg-0 order-md-1">
+                    <img src="./images/shop.jpg" width="100%" alt="cig-img">
+                    <h1 class="text-center">Market</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of about us -->
+
+    <section id="populer" class="py-5">
+        <div class="container">
+            <div class="title text-center pt-3 py-5">
+                <h2 class="position-relative d-inline-block ms-4">
+                    Popular of this years
+                </h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4 row g-3">
+                    <h3 class="fs-5">Top Rated</h3>
+                    <div class="d-flex align-item-start justify-content-start">
+                        <img src="./images/bag1.jpg" alt="" class="img-fluid w-25">
+                    </div>
+                    <p class="mb-0">Bags Style</p>
+                    <span class="">$20.99</span>
+
+                    <div class="d-flex align-item-start justify-content-start">
+                        <img src="./images/dresses1.jpg" alt="" class="img-fluid w-25">
+                    </div>
+                    <p class="mb-0">Bags Style</p>
+                    <span class="">$20.99</span>
+
+                    <div class="d-flex align-item-start justify-content-start">
+                        <img src="./images/hat1.jpg" alt="" class="img-fluid w-25">
+                    </div>
+                    <p class="mb-0">Bags Style</p>
+                    <span class="">$20.99</span>
+                </div>
+
+                <div class="col-md-6 col-lg-4 row g-3">
+                    <h3 class="fs-5">Best Sell This Month</h3>
+                    <div class="d-flex align-item-start justify-content-start">
+                        <img src="./images/bag3.jpg" alt="" class="img-fluid w-25">
+                    </div>
+                    <p class="mb-0">Bags Style</p>
+                    <span class="">$20.99</span>
+
+                    <div class="d-flex align-item-start justify-content-start">
+                        <img src="./images/dresses3.jpg" alt="" class="img-fluid w-25">
+                    </div>
+                    <p class="mb-0">Bags Style</p>
+                    <span class="">$20.99</span>
+
+                    <div class="d-flex align-item-start justify-content-start">
+                        <img src="./images/hat3.jpg" alt="" class="img-fluid w-25">
+                    </div>
+                    <p class="mb-0">Bags Style</p>
+                    <span class="">$20.99</span>
+                </div>
+
+                <div class="col-md-6 col-lg-4 row g-3">
+                    <h3 class="fs-5">Feature</h3>
+                    <div class="d-flex align-item-start justify-content-start">
+                        <img src="./images/bag2.jpg" alt="" class="img-fluid w-25">
+                    </div>
+                    <p class="mb-0">Bags Style</p>
+                    <span class="">$20.99</span>
+
+                    <div class="d-flex align-item-start justify-content-start">
+                        <img src="./images/dresses2.jpg" alt="" class="img-fluid w-25">
+                    </div>
+                    <p class="mb-0">Bags Style</p>
+                    <span class="">$20.99</span>
+
+                    <div class="d-flex align-item-start justify-content-start">
+                        <img src="./images/hat2.jpg" alt="" class="img-fluid w-25">
+                    </div>
+                    <p class="mb-0">Bags Style</p>
+                    <span class="">$20.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of populler -->
+
+    <section id="newsletter" class="py-5">
+        <div class="container">
+            <div class="d-flex align-item-center flex-column justify-content-center">
+                <div class="title text-center pt-3 pb-5">
+                    <h2 class="position-relative d-inline-block text-white">Newsletter Substriction</h2>
+                </div>
+
+                <p class="text-center text-white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex facilis impedit at placeat. Sit id odit atque laudantium magni quos officia voluptate neque? Voluptates eius sequi sunt deleniti aut dolore.</p>
+                <div class="input-group mb-3 mt-3">
+                    <input type="text" class="form-control" placeholder="Enter your Email...">
+                    <button class="btn btn-primary" type="submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+  </main>
+  <footer class="bg-dark py-5">
+    <div class="container">
+        <div class="row text-white g-4">
+            <div class="col-lg-3 col-md-6">
+                <a class="text-uppercase text-decoration-none brand text-white" href="index.html">Attire</a>
+                <p class="text-white mt-3 text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum beatae est nulla officiis totam quod deserunt quas magni cumque aspernatur, assumenda commodi, distinctio sed sunt cupiditate dolore neque doloremque eaque?</p>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <h5 class="fw-light">Links</h5>
+                <ul class="list-unstyled">
+                    <li class="my-3">
+                       <a class="text-white text-decoration-none text-muted" href="">
+                        <i class="fas fa-greater-than right me-1"></i>Home
+                       </a> 
+                    </li>
+
+                    <li class="my-3">
+                        <a class="text-white text-decoration-none text-muted" href="">
+                         <i class="fas fa-greater-than right me-1"></i>Collection
+                        </a> 
+                     </li>
+
+                     <li class="my-3">
+                        <a class="text-white text-decoration-none text-muted" href="">
+                         <i class="fas fa-greater-than right me-1"></i>Special
+                        </a> 
+                     </li>
+
+                     <li class="my-3">
+                        <a class="text-white text-decoration-none text-muted" href="">
+                         <i class="fas fa-greater-than right me-1"></i>Blog
+                        </a> 
+                     </li>
+
+                     <li class="my-3">
+                        <a class="text-white text-decoration-none text-muted" href="">
+                         <i class="fas fa-greater-than right me-1"></i>About Us
+                        </a> 
+                     </li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <h5 class="fw-light mb-3"> Contact Us</h5>
+                <div class="d-flex align-item-start justify-content-start text-muted">
+                    <span class="me-2">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </span>
+                    <span class="fw-light">Old Golimar, Karachi</span>
+                </div>
+
+                <div class="d-flex align-item-start justify-content-start text-muted">
+                    <span class="me-2">
+                        <i class="fa-regular fa-envelope"></i>
+                    </span>
+                    <span class="fw-light">hanzla697@gmail.com</span>
+                </div>
+
+                <div class="d-flex align-item-start justify-content-start text-muted">
+                    <span class="me-2">
+                        <i class="fas fa-phone-alt"></i>
+                    </span>
+                    <span class="fw-light">+923102550425</span>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+                <h5 class="fw-light mb-3">Follow Us</h5>
+                <div>
+                    <ul class="list-unstyled d-flex">
+                        <li>
+                           <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                            <i class="fa-brands fa-facebook"></i>
+                           </a> 
+                        </li>
+
+                        <li>
+                            <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                             <i class="fa-brands fa-instagram"></i>
+                            </a> 
+                         </li>
+
+                         <li>
+                            <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                             <i class="fa-brands fa-twitter"></i>
+                            </a> 
+                         </li>
+
+                         <li>
+                            <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                             <i class="fa-brands fa-pinterest"></i>
+                            </a> 
+                         </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  </footer>
+
+  
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+  <script src="script.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    AOS.init({
+        offset: 50,
+        duration: 2000,
+    });
+  </script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $(document).ready(function(){
+   $('collection-list').isotope({
+  // options
+  itemSelector: '.item',
+  layoutMode: 'fitRows'
+});
+    $('collection').click(function(){
+        $('collection').removeClass('active')
+        $(this).addClass('active')
+    })
+})
+
+</script>
+
+
+</body>
+
+</html>
